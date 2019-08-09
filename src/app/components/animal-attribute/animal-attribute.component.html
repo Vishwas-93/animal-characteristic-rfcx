@@ -1,0 +1,44 @@
+<div class="wrapper">
+  <div class="one">
+      <input [(ngModel)]="animal" (keyup)="onKeyUp($event)" placeholder="Search" class="animal-dropdown-input">
+        <div *ngIf="showDropDown">
+            <div class="animals-container-dropdown">
+              <div *ngFor="let animal of animals; let i=index" activeIndex = i [ngClass]="{'message-list-active': activeIndex === i  }" (click)="handleDropDownClick(animal)" class="animal">{{animal}}</div>
+          </div>
+          
+        </div>
+  </div>
+  
+  <div *ngIf="showDropDownAttr" class="two"> 
+  <div>      
+      <!-- <select class="attribute-select" >
+        <option class="select-option" *ngFor="let attribute of attributes" [ngValue]="attribute">{{attribute}}</option>
+      </select> -->
+      <input [(ngModel)]="selected_attribute" (click)="handleAttributeListClick()" placeholder="Choose Characteristic" class="animal-dropdown-input">
+      <div *ngIf="showAttrList">
+          <div class="animals-container-dropdown">
+            <div *ngFor="let attribute of attributes; let i=index" activeIndex = i [ngClass]="{'message-list-active': activeIndex === i  }" (click)="handleAttrDropDownClick(attribute)" class="animal">{{attribute}}</div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
