@@ -1,5 +1,6 @@
 const Animals = require('../models/Animals');
 
+// Route to get the Animal suggestions. Ties to data in the models.
 module.exports=(app)=>{
     app.get('/api/getAnimals', (req,res)=>{          
         const word = (req.query.word).toLowerCase();

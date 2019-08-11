@@ -145,7 +145,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".wrapper {\r\n    display: table;\r\n    table-layout: fixed;\r\n    width:100%;\r\n    /* margin: 40px; */\r\n}\r\n\r\n\r\n.one{\r\n    display: table-cell;\r\n    background-color:white;\r\n    padding: 8px;\r\n    transition: visibility 0s linear 0.33s, opacity 0.33s linear;\r\n}\r\n\r\n\r\n.two{\r\n    /* width: 100%;    */\r\n    display: table-cell;\r\n    background-color:white;\r\n    padding: 8px;\r\n    transition: visibility 0s linear 0.33s, opacity 0.33s linear;\r\n}\r\n\r\n\r\n.animal-dropdown-input{\r\n    width: 100%;\r\n    height: 40px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    border: 1px solid gray;\r\n    border-radius: 4px;\r\n}\r\n\r\n\r\n.attribute-dropdown-input{\r\n    width: 100%;\r\n    height: 40px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    border: 1px solid gray;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    text-shadow: 0 0 0 gray;\r\n\r\n}\r\n\r\n\r\n:focus {\r\n    outline: none;\r\n}\r\n\r\n\r\n.animals-container-dropdown{\r\n    padding: 5px;\r\n    width: 100%;\r\n    background-color: white;\r\n    border: 0.5px solid #e0e2e6;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    margin-top: 10px;\r\n    box-shadow: 5px 5px 15px #e0e2e6;\r\n}\r\n\r\n\r\n.animal{\r\n    padding: 10px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.animal:hover{\r\n    background-color: #e0e2e6;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n.attribute-select{\r\n    height: 40px;\r\n    width: 100%;\r\n    border: 1px solid grey;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    color: black;\r\n}\r\n\r\n\r\n.message-list-active {\r\n    margin: 0;\r\n    padding: 15px 15px 5px 10px;\r\n    border-radius: 4px;\r\n    background-color: #e0e2e6;\r\n    border-width: 1px;\r\n}\r\n\r\n\r\n.attribute{\r\n    padding: 10px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.attribute:hover{\r\n    background-color: #e0e2e6;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n.attributes-container-dropdown{\r\n    padding: 5px;\r\n    width: 100%;\r\n    background-color: white;\r\n    border: 0.5px solid #e0e2e6;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    margin-top: 10px;\r\n    box-shadow: 5px 5px 15px #e0e2e6;\r\n}"
+module.exports = ".wrapper {\r\n    display: table;\r\n    table-layout: fixed;\r\n    width:100%;\r\n    /* margin: 40px; */\r\n}\r\n\r\n\r\n.one{\r\n    display: table-cell;\r\n    background-color:white;\r\n    padding: 8px;\r\n    transition: visibility 0s linear 0.33s, opacity 0.33s linear;\r\n}\r\n\r\n\r\n.two{\r\n    /* width: 100%;    */\r\n    display: table-cell;\r\n    background-color:white;\r\n    padding: 8px;\r\n    transition: visibility 0s linear 0.33s, opacity 0.33s linear;\r\n}\r\n\r\n\r\n.animal-dropdown-input{\r\n    width: 100%;\r\n    height: 40px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    border: 1px solid gray;\r\n    border-radius: 4px;\r\n}\r\n\r\n\r\n.attribute-dropdown-input{\r\n    width: 100%;\r\n    height: 40px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    border: 1px solid gray;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    text-shadow: 0 0 0 gray;\r\n\r\n}\r\n\r\n\r\n:focus {\r\n    outline: none;\r\n}\r\n\r\n\r\n.animals-container-dropdown{\r\n    padding: 5px;\r\n    width: 100%;\r\n    background-color: white;\r\n    border: 0.5px solid #e0e2e6;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    margin-top: 10px;\r\n    box-shadow: 5px 5px 15px #e0e2e6;\r\n}\r\n\r\n\r\n.animal{\r\n    padding: 10px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.animal:hover{\r\n    background-color: #e0e2e6;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n.attribute{\r\n    padding: 10px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.attribute:hover{\r\n    background-color: #e0e2e6;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n.attribute-select{\r\n    height: 40px;\r\n    width: 100%;\r\n    border: 1px solid grey;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    color: black;\r\n}\r\n\r\n\r\n.animal-list-active {\r\n    margin: 0;\r\n    padding: 15px 15px 5px 10px;\r\n    border-radius: 4px;\r\n    background-color: #e0e2e6;\r\n    border-width: 1px;\r\n}\r\n\r\n\r\n.attribute-list-active {\r\n    margin: 0;\r\n    padding: 15px 15px 5px 10px;\r\n    border-radius: 4px;\r\n    background-color: #e0e2e6;\r\n    border-width: 1px;\r\n}\r\n\r\n\r\n.attribute{\r\n    padding: 10px;\r\n    font-family: sans-serif;\r\n    color: black;\r\n    font-size: 18px;\r\n}\r\n\r\n\r\n.attribute:hover{\r\n    background-color: #e0e2e6;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n.attributes-container-dropdown{\r\n    padding: 5px;\r\n    width: 100%;\r\n    background-color: white;\r\n    border: 0.5px solid #e0e2e6;\r\n    border-radius: 4px;\r\n    font-family: sans-serif;\r\n    font-size: 18px;\r\n    margin-top: 10px;\r\n    box-shadow: 5px 5px 15px #e0e2e6;\r\n}"
 
 /***/ }),
 
@@ -156,7 +156,7 @@ module.exports = ".wrapper {\r\n    display: table;\r\n    table-layout: fixed;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\">\r\n  <div class=\"one\">\r\n      <input [(ngModel)]=\"animal\" (keyup)=\"fireOnKeyUp($event)\" placeholder=\"Search\" class=\"animal-dropdown-input\">\r\n        <div *ngIf=\"showDropDown\">\r\n            <div class=\"animals-container-dropdown\">\r\n              <div *ngFor=\"let animal of animals; let i=index\" (mouseover)=\"handleAnimalMouseOver($event)\" activeIndex = i [ngClass]=\"{'message-list-active': activeIndex === i  }\" (click)=\"handleDropDownClick(animal)\" class=\"animal\">{{animal}}</div>\r\n          </div>\r\n          \r\n        </div>\r\n  </div>\r\n  \r\n  <div *ngIf=\"showDropDownAttr\" class=\"two\"> \r\n  <div>      \r\n      <!-- <select class=\"attribute-select\" >\r\n        <option class=\"select-option\" *ngFor=\"let attribute of attributes\" [ngValue]=\"attribute\">{{attribute}}</option>\r\n      </select> -->\r\n      <input [(ngModel)]=\"selected_attribute\" (click)=\"handleAttributeListClick()\" placeholder=\"Choose Characteristic\" class=\"attribute-dropdown-input\">\r\n      <div *ngIf=\"showAttrList\">\r\n          <div class=\"attributes-container-dropdown\">\r\n            <div (mouseover)=\"handleAnimalMouseOver($event)\" *ngFor=\"let attribute of attributes; let i=index\" activeIndex = i [ngClass]=\"{'message-list-active': activeIndex === i  }\" (click)=\"handleAttrDropDownClick(attribute)\" class=\"animal\">{{attribute}}</div>\r\n        </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+module.exports = "<div class=\"wrapper\">\r\n  <div class=\"one\">\r\n      <input [(ngModel)]=\"animal\" (keyup)=\"onKeyUp($event)\" placeholder=\"Search\" class=\"animal-dropdown-input\">\r\n        <div *ngIf=\"showDropDown\">\r\n            <div class=\"animals-container-dropdown\">\r\n              <div *ngFor=\"let animal of animals; let i=index\" (mouseover)=\"handleDropDownMouseOver($event)\" currIndex = i [ngClass]=\"{'animal-list-active': currIndex === i  }\" (click)=\"handleDropDownClick(animal)\" class=\"animal\">{{animal}}</div>\r\n          </div>\r\n          \r\n        </div>\r\n  </div>\r\n  \r\n  <div *ngIf=\"showDropDownAttr\" class=\"two\"> \r\n  <div>      \r\n      <input [(ngModel)]=\"selected_attribute\" (click)=\"handleAttributeListClick()\" placeholder=\"Choose Characteristic\" class=\"attribute-dropdown-input\">\r\n      <div *ngIf=\"showAttrList\">\r\n          <div class=\"attributes-container-dropdown\">\r\n            <div (mouseover)=\"handleDropDownMouseOver($event)\" *ngFor=\"let attribute of attributes; let i=index\" currIndex = i [ngClass]=\"{'attribute-list-active': currIndex === i  }\" (click)=\"handleAttrDropDownClick(attribute)\" class=\"attribute\">{{attribute}}</div>\r\n        </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -224,7 +224,7 @@ var AnimalAttributeComponent = /** @class */ (function () {
         this.animal = "";
         this.animals = "";
         this.showDropDown = false;
-        this.activeIndex = 0;
+        this.currIndex = 0;
         this.selected_animal = "";
         this.attributes = "";
         this.showDropDownAttr = false;
@@ -233,93 +233,25 @@ var AnimalAttributeComponent = /** @class */ (function () {
         this.job = 0;
     }
     AnimalAttributeComponent.prototype.ngOnInit = function () { };
-    // async onKeyUp(evt) {
-    //   if (this.animal.length > 2) {
-    //     if (this.selected_animal == "") {
-    //       this.showDropDownAttr = false;
-    //       if (this.job)
-    //         window.clearTimeout(this.job);
-    //       this.job = window.setTimeout(
-    //         function() {
-    //           this.service
-    //             .getAnimalsSuggestion(this.animal)
-    //             .subscribe(response => {
-    //               this.animals = response.json();
-    //             });
-    //         }.bind(this),
-    //         500
-    //       );
-    //       this.showDropDown = true;
-    //       if (evt.code == "ArrowUp" && this.activeIndex > 0) {
-    //         this.activeIndex--;
-    //       }
-    //       if (
-    //         evt.code == "ArrowDown" &&
-    //         this.activeIndex < this.animals.length - 1
-    //       ) {
-    //         this.activeIndex++;
-    //       }
-    //       if (evt.keyCode == 13) {
-    //         this.animal = this.animals[this.activeIndex];
-    //         this.selected_animal = this.animal;
-    //         this.showDropDown = false;
-    //         this.service
-    //           .getAnimalAttributes(this.animals[this.activeIndex])
-    //           .subscribe(response => {
-    //             if (response.json().length != 0) {
-    //               this.attributes = response.json();
-    //               this.showDropDownAttr = true;
-    //             }
-    //           });
-    //       }
-    //     } else if (evt.target.value !== this.selected_animal) {
-    //       this.showDropDownAttr = false;
-    //     }
-    //   } else {
-    //     this.activeIndex = 0;
-    //     this.selected_animal = "";
-    //     this.showDropDown = false;
-    //     this.showDropDownAttr = false;
-    //     this.selected_attribute = "";
-    //   }
-    // }
-    AnimalAttributeComponent.prototype.handleDropDownClick = function (value) {
-        var _this = this;
-        this.animal = value;
-        this.selected_animal = value;
-        this.showDropDown = false;
-        this.service.getAnimalAttributes(this.animal).subscribe(function (response) {
-            if (response.json().length != 0) {
-                _this.attributes = response.json();
-                _this.showDropDownAttr = true;
-            }
-        });
-    };
-    AnimalAttributeComponent.prototype.handleAttributeListClick = function () {
-        this.showAttrList = !this.showAttrList;
-    };
-    AnimalAttributeComponent.prototype.handleAttrDropDownClick = function (attribute) {
-        this.selected_attribute = attribute;
-        this.showAttrList = false;
-    };
-    AnimalAttributeComponent.prototype.fireOnKeyUp = function (event) {
+    // Method gets fired up on key up inside the Animal input field
+    AnimalAttributeComponent.prototype.onKeyUp = function (event) {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
             return __generator(this, function (_a) {
                 if (event.code == "ArrowUp" || event.code == "ArrowDown" || event.keyCode == 13) {
                     if (this.showDropDown == true) {
-                        if (event.code == "ArrowUp" && this.activeIndex > 0) {
-                            this.activeIndex--;
+                        if (event.code == "ArrowUp" && this.currIndex > 0) {
+                            this.currIndex--;
                         }
-                        if (event.code == "ArrowDown" && this.activeIndex < this.animals.length - 1) {
-                            this.activeIndex++;
+                        if (event.code == "ArrowDown" && this.currIndex < this.animals.length - 1) {
+                            this.currIndex++;
                         }
                         if (event.keyCode == 13) {
-                            this.animal = this.animals[this.activeIndex];
+                            this.animal = this.animals[this.currIndex];
                             this.selected_animal = this.animal;
                             this.showDropDown = false;
                             this.service
-                                .getAnimalAttributes(this.animals[this.activeIndex])
+                                .getAnimalAttributes(this.animals[this.currIndex])
                                 .subscribe(function (response) {
                                 if (response.json().length != 0) {
                                     _this.attributes = response.json();
@@ -351,7 +283,7 @@ var AnimalAttributeComponent = /** @class */ (function () {
                             this.showDropDown = false;
                         }
                         else if (this.animal != this.selected_animal) {
-                            this.activeIndex = 0;
+                            this.currIndex = 0;
                             this.selected_animal = "";
                             this.showDropDown = false;
                             this.showDropDownAttr = false;
@@ -361,7 +293,7 @@ var AnimalAttributeComponent = /** @class */ (function () {
                         }
                     }
                     else {
-                        this.activeIndex = 0;
+                        this.currIndex = 0;
                         this.selected_animal = "";
                         this.showDropDown = false;
                         this.showDropDownAttr = false;
@@ -374,8 +306,31 @@ var AnimalAttributeComponent = /** @class */ (function () {
             });
         });
     };
-    AnimalAttributeComponent.prototype.handleAnimalMouseOver = function (event) {
-        this.activeIndex = -1;
+    // Once the user clicks on the Animal suggestions. This method gets called
+    AnimalAttributeComponent.prototype.handleDropDownClick = function (value) {
+        var _this = this;
+        this.animal = value;
+        this.selected_animal = value;
+        this.showDropDown = false;
+        this.service.getAnimalAttributes(this.animal).subscribe(function (response) {
+            if (response.json().length != 0) {
+                _this.attributes = response.json();
+                _this.showDropDownAttr = true;
+            }
+        });
+    };
+    // This is to toggle the Atribute list click
+    AnimalAttributeComponent.prototype.handleAttributeListClick = function () {
+        this.showAttrList = !this.showAttrList;
+    };
+    // This is called when the Attribute is clicked from the dropdown
+    AnimalAttributeComponent.prototype.handleAttrDropDownClick = function (attribute) {
+        this.selected_attribute = attribute;
+        this.showAttrList = false;
+    };
+    // Switches control between mouse over and key up key down
+    AnimalAttributeComponent.prototype.handleDropDownMouseOver = function (event) {
+        this.currIndex = -1;
     };
     AnimalAttributeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -421,16 +376,20 @@ var AnimalAttributeService = /** @class */ (function () {
         this.url = "http://localhost:5000/api/getAnimals";
         this.attr_url = "http://localhost:5000/api/getAttributes";
     }
+    // Method to get Animal Suggestions
     AnimalAttributeService.prototype.getAnimalsSuggestion = function (word) {
         return this.http.get(this.url + "?" + "word=" + word);
     };
+    // Method to get Animal Characteristics
     AnimalAttributeService.prototype.getAnimalAttributes = function (animal) {
         return this.http.get(this.attr_url + "?" + "animal=" + animal);
     };
     AnimalAttributeService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
-        }),
+        })
+        // Service that makes call to the APIs and is injected into component
+        ,
         __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_1__["Http"]])
     ], AnimalAttributeService);
     return AnimalAttributeService;

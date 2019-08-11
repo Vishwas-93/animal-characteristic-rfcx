@@ -76,6 +76,18 @@
     cursor: pointer;
 }
 
+.attribute{
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.attribute:hover{
+    background-color: #e0e2e6;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 .attribute-select{
     height: 40px;
@@ -87,13 +99,22 @@
     color: black;
 }
 
-.message-list-active {
+.animal-list-active {
     margin: 0;
     padding: 15px 15px 5px 10px;
     border-radius: 4px;
     background-color: #e0e2e6;
     border-width: 1px;
 }
+
+.attribute-list-active {
+    margin: 0;
+    padding: 15px 15px 5px 10px;
+    border-radius: 4px;
+    background-color: #e0e2e6;
+    border-width: 1px;
+}
+
 
 .attribute{
     padding: 10px;
